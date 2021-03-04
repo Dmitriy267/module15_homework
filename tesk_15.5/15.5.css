@@ -1,0 +1,37 @@
+.eho_message{
+              color: green;
+          }
+         
+          
+          #main_chat{
+              border:2px solid red;
+              height: 600px;
+              width: 400px;
+              border-radius: 10px;
+          }
+          .chat_form{
+  margin-left:10px;
+  margin-top:8px;
+}
+          .btn{
+              background-color: skyblue;
+               cursor: pointer;
+          }
+          .lockation{
+             background-color: #09e352; 
+               cursor: pointer;
+          }
+          .btn:hover {
+ 
+  transform: scale(1.1);
+}
+          .lockation:hover{
+             transform: scale(1.1); 
+          }
+          
+          .container{
+              display: flex;
+              flex-direction: column; 
+            align-content:flex-end;
+            flex-wrap:wrap;
+          }
